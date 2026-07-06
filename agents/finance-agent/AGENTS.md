@@ -41,3 +41,4 @@ MRR, ARR, unit economics, custos e burn rate
 
 
 
+
