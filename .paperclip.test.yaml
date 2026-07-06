@@ -1,0 +1,12 @@
+schema: paperclip/v1
+agents:
+  ceo:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-opus-4.8"
+  backend-senior-dev:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
