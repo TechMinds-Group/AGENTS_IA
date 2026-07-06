@@ -1,0 +1,15 @@
+# TOOLS.md -- Governance & Compliance Agent Capacidades
+
+## Skills atribuídas
+- `privacy-policy-builder` -- ver `skills/privacy-policy-builder/SKILL.md` no catálogo SKILLS_AI.
+- `lgpd-audit` -- ver `skills/lgpd-audit/SKILL.md` no catálogo SKILLS_AI.
+- `compliance-checklist` -- ver `skills/compliance-checklist/SKILL.md` no catálogo SKILLS_AI.
+
+## Skill obrigatória de coordenação
+- `paperclip` -- wrapper da API do Paperclip. Sempre inclua o header `X-Paperclip-Run-Id` em chamadas que alteram estado.
+
+## Skill obrigatória de memória
+- `para-memory-files` -- sistema de memória em três camadas (knowledge graph, notas diárias, conhecimento tácito) e estrutura PARA. Invoque sempre que precisar lembrar, recuperar ou organizar informação.
+
+## Notas de uso
+_(este arquivo evolui em runtime -- registre aqui aprendizados sobre como usar cada skill/ferramenta de forma mais eficaz, limitações conhecidas e exemplos de invocações bem-sucedidas.)_
