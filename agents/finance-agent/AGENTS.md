@@ -3,7 +3,7 @@ name: Finance Agent
 title: Finance Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "openrouter/deepseek-v4-pro"
+  model: "opencode-go/glm-5.2"
 skills:
   - unit-economics-calculator
   - burn-rate-monitor

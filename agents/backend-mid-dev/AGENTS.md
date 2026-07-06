@@ -3,7 +3,7 @@ name: Backend Mid Dev
 title: Backend Mid Dev
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "opencode/mimo-v2.5-free"
+  model: "opencode-go/mimo-v2.5-pro"
 skills:
   - openapi-validator
   - refactoring-assistant

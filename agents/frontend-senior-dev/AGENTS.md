@@ -3,7 +3,7 @@ name: Frontend Senior Dev
 title: Frontend Senior Dev
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "github-copilot/gemini-3.5-flash"
+  model: "opencode-go/kimi-k2.7-code"
 skills:
   - component-library
   - storybook-generator

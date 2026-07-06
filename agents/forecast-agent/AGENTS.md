@@ -3,7 +3,7 @@ name: Forecast Agent
 title: Forecast Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "openrouter/deepseek-v4-pro"
+  model: "opencode-go/glm-5.2"
 skills:
   - forecast-generator
 metadata:

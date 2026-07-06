@@ -3,7 +3,7 @@ name: Data Science Agent
 title: Data Science Agent
 reportsTo: data-lead-agent
 adapterConfig:
-  model: "openrouter/deepseek-v4-pro"
+  model: "opencode-go/glm-5.2"
 skills:
   - experiment-analysis
   - churn-prediction-model

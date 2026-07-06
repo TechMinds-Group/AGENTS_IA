@@ -3,7 +3,7 @@ name: Backend Senior Dev
 title: Backend Senior Dev
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "github-copilot/gemini-3.5-flash"
+  model: "opencode-go/kimi-k2.7-code"
 skills:
   - api-docs-generator
   - data-migration

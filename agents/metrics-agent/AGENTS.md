@@ -3,7 +3,7 @@ name: Metrics Agent
 title: Metrics Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "openrouter/deepseek-v4-pro"
+  model: "opencode-go/glm-5.2"
 skills:
   - executive-dashboard-builder
 metadata:

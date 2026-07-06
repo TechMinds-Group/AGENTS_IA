@@ -3,7 +3,7 @@ name: BI Agent
 title: BI Agent
 reportsTo: data-lead-agent
 adapterConfig:
-  model: "openrouter/deepseek-v4-pro"
+  model: "opencode-go/glm-5.2"
 skills:
   - dashboard-generator
 metadata:

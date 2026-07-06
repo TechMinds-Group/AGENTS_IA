@@ -3,7 +3,7 @@ name: AppSec Agent
 title: AppSec Agent
 reportsTo: security-architect
 adapterConfig:
-  model: "github-copilot/gemini-3.5-flash"
+  model: "opencode-go/kimi-k2.7-code"
 skills:
   - dast-execution
 metadata:

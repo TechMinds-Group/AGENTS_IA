@@ -3,7 +3,7 @@ name: QA Agent
 title: QA Agent
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "github-copilot/gemini-3.5-flash"
+  model: "opencode-go/kimi-k2.7-code"
 skills:
   - unit-test-generator
   - e2e-test-generator

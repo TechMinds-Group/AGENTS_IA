@@ -3,7 +3,7 @@ name: Data Engineer Agent
 title: Data Engineer Agent
 reportsTo: data-lead-agent
 adapterConfig:
-  model: "opencode/mimo-v2.5-free"
+  model: "opencode-go/mimo-v2.5-pro"
 skills:
   - etl-builder
 metadata:
