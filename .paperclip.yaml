@@ -1,179 +1,299 @@
 schema: paperclip/v1
+# OpenCode Go adapter configuration
+# Models sourced from: https://github.com/anomalyco/opencode/blob/dev/packages/opencode/test/tool/fixtures/models-api.json
 agents:
   agentops-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   appsec-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   backend-junior-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   backend-mid-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   backend-senior-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   bi-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/glm-5.2
   ceo:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   chief-of-staff:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   churn-prevention-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   community-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   competitor-intel-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   compliance-security-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   content-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   coo:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   creative-design-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   customer-success-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   database-architect:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   data-engineer-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   data-governance-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   data-lead-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   data-science-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/glm-5.2
   demand-gen-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   design-system-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   devops-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   expansion-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   finance-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/glm-5.2
   finance-compliance-director:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   forecast-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/glm-5.2
   frontend-junior-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   frontend-mid-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   frontend-senior-dev:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   governance-compliance-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   growth-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   integration-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   knowledge-manager:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   l2-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   legal-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   localization-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   metrics-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/glm-5.2
   partnership-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   pricing-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   process-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   product-engineering-director:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   product-manager-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   qa-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   revenue-director:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   revops-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   roadmap-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   sales-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   sdr-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   security-architect:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   seo-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   software-architect:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
   support-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   tech-lead-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   tech-writer-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-flash
   ux-design-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/kimi-k2.7-code
   ux-research-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/mimo-v2.5-pro
   vulnerability-agent:
     adapter:
-      type: opencode_local
+      type: opencode-go
+    adapterConfig:
+      model: opencode-go/deepseek-v4-pro
