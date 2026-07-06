@@ -11,7 +11,7 @@ skills:
 metadata:
   tier: 6
   type: Specialist
-  provider_hint: opencode_local
+  provider_hint: opencode-go
   model_hint: "opencode-go/glm-5.2"
   heartbeat: Sob demanda
   priority_default: medium
@@ -37,6 +37,7 @@ Modelos preditivos, ML, design e análise de experimentos
 - Reporta a **Data Lead Agent** (`data-lead-agent`) — escala bloqueios e decisões fora do seu escopo para lá.
 - Não possui reports diretos — executa o trabalho por conta própria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `experiment-analysis`, `churn-prediction-model`, `recommendation-engine-builder`.
+
 
 
 

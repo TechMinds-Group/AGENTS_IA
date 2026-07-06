@@ -9,7 +9,7 @@ skills:
 metadata:
   tier: 6
   type: Specialist
-  provider_hint: opencode_local
+  provider_hint: opencode-go
   model_hint: "opencode-go/glm-5.2"
   heartbeat: Mensal
   priority_default: medium
@@ -35,6 +35,7 @@ Projeções financeiras em cenários otimista/base/pessimista
 - Reporta a **Finance & Compliance Director** (`finance-compliance-director`) — escala bloqueios e decisões fora do seu escopo para lá.
 - Não possui reports diretos — executa o trabalho por conta própria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `forecast-generator`.
+
 
 
 

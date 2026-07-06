@@ -8,7 +8,7 @@ skills: []
 metadata:
   tier: 3
   type: Specialist
-  provider_hint: opencode_local
+  provider_hint: opencode-go
   model_hint: "opencode-go/kimi-k2.7-code"
   heartbeat: Sob demanda
   priority_default: medium
@@ -34,6 +34,7 @@ Integrações externas, webhooks e SDKs de parceiros
 - Reporta a **Tech Lead Agent** (`tech-lead-agent`) — escala bloqueios e decisões fora do seu escopo para lá.
 - Não possui reports diretos — executa o trabalho por conta própria e devolve o resultado para quem atribuiu a task.
 - Não possui skill dedicada no catálogo `SKILLS_AI` — opera por julgamento direto e delegação.
+
 
 
 

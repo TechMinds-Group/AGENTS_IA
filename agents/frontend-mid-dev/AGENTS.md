@@ -10,7 +10,7 @@ skills:
 metadata:
   tier: 4
   type: Specialist
-  provider_hint: opencode_local
+  provider_hint: opencode-go
   model_hint: "opencode-go/mimo-v2.5-pro"
   heartbeat: Sob demanda
   priority_default: medium
@@ -36,6 +36,7 @@ Implementação de specs definidas, refatorações, testes de componente
 - Reporta a **Tech Lead Agent** (`tech-lead-agent`) — escala bloqueios e decisões fora do seu escopo para lá.
 - Não possui reports diretos — executa o trabalho por conta própria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `a11y-audit`, `responsive-audit`.
+
 
 
 
