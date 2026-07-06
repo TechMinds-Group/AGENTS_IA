@@ -1,4 +1,4 @@
----
+﻿---
 name: Finance Agent
 title: Finance Agent
 reportsTo: finance-compliance-director

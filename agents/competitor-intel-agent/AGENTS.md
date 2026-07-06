@@ -1,4 +1,4 @@
----
+﻿---
 name: Competitor Intel Agent
 title: Competitor Intel Agent
 reportsTo: product-manager-agent

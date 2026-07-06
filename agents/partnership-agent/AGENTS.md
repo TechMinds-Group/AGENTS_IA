@@ -1,4 +1,4 @@
----
+﻿---
 name: Partnership Agent
 title: Partnership Agent
 reportsTo: sales-agent
