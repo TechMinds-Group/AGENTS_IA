@@ -37,3 +37,4 @@ ImplementaÃ§Ã£o de specs definidas, refatoraÃ§Ãµes, testes de componente
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `a11y-audit`, `responsive-audit`.
 
+

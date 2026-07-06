@@ -3,7 +3,7 @@ name: Demand Gen Agent
 title: Demand Gen Agent
 reportsTo: growth-agent
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ GeraÃ§Ã£o de demanda B2B, pipeline de leads qualificados
 - Reporta a **Growth Agent** (`growth-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

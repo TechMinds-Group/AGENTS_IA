@@ -3,7 +3,7 @@ name: Content Agent
 title: Content Agent
 reportsTo: growth-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - brand-context-loader
   - blog-writer
@@ -39,4 +39,5 @@ Blog, social media, newsletters e cases. Executa Brand Context Loader localmente
 - Reporta a **Growth Agent** (`growth-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `brand-context-loader`, `blog-writer`, `social-adaptation`, `newsletter-builder`, `video-script-generator`.
+
 

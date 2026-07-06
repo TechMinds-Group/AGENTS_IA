@@ -37,3 +37,4 @@ ImplementaÃ§Ã£o de endpoints definidos, refatoraÃ§Ãµes, testes
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `openapi-validator`, `refactoring-assistant`.
 
+

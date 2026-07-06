@@ -3,7 +3,7 @@ name: Governance & Compliance Agent
 title: Governance & Compliance Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - privacy-policy-builder
   - lgpd-audit
@@ -37,4 +37,5 @@ LGPD, GDPR, privacidade por design, adequaÃ§Ã£o regulatÃ³ria
 - Reporta a **Finance & Compliance Director** (`finance-compliance-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `privacy-policy-builder`, `lgpd-audit`, `compliance-checklist`.
+
 

@@ -3,7 +3,7 @@ name: Data Governance Agent
 title: Data Governance Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - data-quality-audit
 metadata:
@@ -35,4 +35,5 @@ Qualidade, catÃ¡logo, lineage e privacidade de dados
 - Reporta a **Finance & Compliance Director** (`finance-compliance-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `data-quality-audit`.
+
 

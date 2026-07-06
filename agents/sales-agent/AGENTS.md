@@ -3,7 +3,7 @@ name: Sales Agent
 title: Sales Agent
 reportsTo: revenue-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - brand-context-loader
   - proposal-generator
@@ -37,4 +37,5 @@ Account executive, fechamento de deals B2B. Executa Brand Context Loader localme
 - Reporta a **Revenue Director** (`revenue-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **SDR Agent** (`sdr-agent`), **RevOps Agent** (`revops-agent`), **Partnership Agent** (`partnership-agent`).
 - Usa as skills: `brand-context-loader`, `proposal-generator`, `objection-handler`.
+
 

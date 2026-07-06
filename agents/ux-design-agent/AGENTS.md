@@ -3,7 +3,7 @@ name: UX Design Agent
 title: UX Design Agent
 reportsTo: product-engineering-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - figma-make-builder
 metadata:
@@ -35,4 +35,5 @@ Wireframes, fluxos de interaÃ§Ã£o, protÃ³tipos e Figma Make
 - Reporta a **Product & Engineering Director** (`product-engineering-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **UX Research Agent** (`ux-research-agent`), **Design System Agent** (`design-system-agent`), **Creative Design Agent** (`creative-design-agent`).
 - Usa as skills: `figma-make-builder`.
+
 

@@ -36,3 +36,4 @@ Experimentos de crescimento, anÃ¡lise de funil, A/B tests
 - Delega para: **SEO Agent** (`seo-agent`), **Content Agent** (`content-agent`), **Community Agent** (`community-agent`), **Demand Gen Agent** (`demand-gen-agent`).
 - Usa as skills: `landing-page-copy`.
 
+

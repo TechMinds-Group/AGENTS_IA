@@ -3,7 +3,7 @@ name: Product & Engineering Director
 title: Product & Engineering Director
 reportsTo: ceo
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ CoordenaÃ§Ã£o de produto, engenharia, UX, design e seguranÃ§a
 - Reporta a **CEO** (`ceo`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Product Manager Agent** (`product-manager-agent`), **UX Design Agent** (`ux-design-agent`), **Software Architect** (`software-architect`), **Tech Lead Agent** (`tech-lead-agent`), **Security Architect** (`security-architect`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

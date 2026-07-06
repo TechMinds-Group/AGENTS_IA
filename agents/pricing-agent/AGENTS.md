@@ -3,7 +3,7 @@ name: Pricing Agent
 title: Pricing Agent
 reportsTo: product-manager-agent
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - pricing-analysis
 metadata:
@@ -35,4 +35,5 @@ EstratÃ©gia de precificaÃ§Ã£o por produto e segmento
 - Reporta a **Product Manager Agent** (`product-manager-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `pricing-analysis`.
+
 

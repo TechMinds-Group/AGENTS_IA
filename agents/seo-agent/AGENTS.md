@@ -38,3 +38,4 @@ EstratÃ©gia orgÃ¢nica, keywords, otimizaÃ§Ã£o on-page e link building
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `keyword-research`, `on-page-optimizer`, `link-building-scout`.
 
+

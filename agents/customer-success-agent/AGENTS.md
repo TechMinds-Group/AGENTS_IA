@@ -3,7 +3,7 @@ name: Customer Success Agent
 title: Customer Success Agent
 reportsTo: revenue-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - health-score-calculator
   - onboarding-checklist-builder
@@ -36,4 +36,5 @@ SaÃºde da base, onboarding, QBRs e expansÃ£o
 - Reporta a **Revenue Director** (`revenue-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Support Agent** (`support-agent`), **L2 Agent** (`l2-agent`), **Churn Prevention Agent** (`churn-prevention-agent`), **Expansion Agent** (`expansion-agent`).
 - Usa as skills: `health-score-calculator`, `onboarding-checklist-builder`.
+
 

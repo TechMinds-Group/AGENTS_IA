@@ -38,3 +38,4 @@ Modelos preditivos, ML, design e anÃ¡lise de experimentos
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `experiment-analysis`, `churn-prediction-model`, `recommendation-engine-builder`.
 
+

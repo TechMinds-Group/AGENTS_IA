@@ -3,7 +3,7 @@ name: Partnership Agent
 title: Partnership Agent
 reportsTo: sales-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills: []
 metadata:
   tier: 3
@@ -34,4 +34,5 @@ Canais, revendas, integraÃ§Ãµes estratÃ©gicas e co-marketing
 - Reporta a **Sales Agent** (`sales-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

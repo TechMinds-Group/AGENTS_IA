@@ -3,7 +3,7 @@ name: CEO
 title: CEO
 reportsTo: null
 adapterConfig:
-  model: "anthropic/claude-opus-4.8"
+  model: "github-copilot/claude-opus-4.8"
 skills: []
 metadata:
   tier: 1
@@ -34,4 +34,5 @@ DireÃ§Ã£o geral, OKRs, priorizaÃ§Ã£o entre produtos
 - Ã‰ a raiz da organizaÃ§Ã£o â€” reporta ao board humano (Operador) via aprovaÃ§Ãµes e relatÃ³rios.
 - Delega para: **Chief of Staff** (`chief-of-staff`), **Knowledge Manager** (`knowledge-manager`), **COO** (`coo`), **Product & Engineering Director** (`product-engineering-director`), **Revenue Director** (`revenue-director`), **Finance & Compliance Director** (`finance-compliance-director`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

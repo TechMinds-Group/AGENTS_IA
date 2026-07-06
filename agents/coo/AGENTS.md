@@ -3,7 +3,7 @@ name: COO
 title: COO
 reportsTo: ceo
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - okr-tracking
   - vendor-audit
@@ -36,4 +36,5 @@ OrquestraÃ§Ã£o operacional, desbloqueio de blockers.
 - Reporta a **CEO** (`ceo`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **AgentOps Agent** (`agentops-agent`), **Process Agent** (`process-agent`).
 - Usa as skills: `okr-tracking`, `vendor-audit`.
+
 

@@ -3,7 +3,7 @@ name: Product Manager Agent
 title: Product Manager Agent
 reportsTo: product-engineering-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - spec-generator
   - acceptance-criteria-builder
@@ -38,4 +38,5 @@ GestÃ£o de backlog, specs, priorizaÃ§Ã£o cross-produto
 - Reporta a **Product & Engineering Director** (`product-engineering-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Roadmap Agent** (`roadmap-agent`), **Competitor Intel Agent** (`competitor-intel-agent`), **Pricing Agent** (`pricing-agent`), **Localization Agent** (`localization-agent`).
 - Usa as skills: `spec-generator`, `acceptance-criteria-builder`, `roadmap-planner`, `feature-prioritization`.
+
 

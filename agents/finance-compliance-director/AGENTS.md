@@ -3,7 +3,7 @@ name: Finance & Compliance Director
 title: Finance & Compliance Director
 reportsTo: ceo
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ CoordenaÃ§Ã£o financeira, jurÃ­dica, compliance e dados
 - Reporta a **CEO** (`ceo`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Finance Agent** (`finance-agent`), **Metrics Agent** (`metrics-agent`), **Forecast Agent** (`forecast-agent`), **Legal Agent** (`legal-agent`), **Governance & Compliance Agent** (`governance-compliance-agent`), **Data Governance Agent** (`data-governance-agent`), **Data Lead Agent** (`data-lead-agent`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

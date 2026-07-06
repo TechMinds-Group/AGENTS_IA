@@ -36,3 +36,4 @@ AdaptaÃ§Ã£o de produto para novos mercados e idiomas
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `localization-pack`.
 
+

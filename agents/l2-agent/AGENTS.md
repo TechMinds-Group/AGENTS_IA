@@ -3,7 +3,7 @@ name: L2 Agent
 title: L2 Agent
 reportsTo: customer-success-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills: []
 metadata:
   tier: 3
@@ -34,4 +34,5 @@ Casos complexos e escalaÃ§Ãµes tÃ©cnicas
 - Reporta a **Customer Success Agent** (`customer-success-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

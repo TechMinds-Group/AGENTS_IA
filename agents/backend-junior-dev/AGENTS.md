@@ -35,3 +35,4 @@ Fixes simples, CRUD bÃ¡sico, documentaÃ§Ã£o de cÃ³digo
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
 
+

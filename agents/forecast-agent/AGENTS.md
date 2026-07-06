@@ -36,3 +36,4 @@ ProjeÃ§Ãµes financeiras em cenÃ¡rios otimista/base/pessimista
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `forecast-generator`.
 
+

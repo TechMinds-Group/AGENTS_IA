@@ -37,3 +37,4 @@ Forecasting, pipeline analysis, CRM sync
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `crm-sync`, `pipeline-analyzer`.
 
+

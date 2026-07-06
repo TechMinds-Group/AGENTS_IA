@@ -3,7 +3,7 @@ name: Tech Lead Agent
 title: Tech Lead Agent
 reportsTo: product-engineering-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ CoordenaÃ§Ã£o por senioridade, code review estratÃ©gico. Delega: critical/
 - Reporta a **Product & Engineering Director** (`product-engineering-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Frontend Senior Dev** (`frontend-senior-dev`), **Frontend Mid Dev** (`frontend-mid-dev`), **Frontend Junior Dev** (`frontend-junior-dev`), **Backend Senior Dev** (`backend-senior-dev`), **Backend Mid Dev** (`backend-mid-dev`), **Backend Junior Dev** (`backend-junior-dev`), **Integration Agent** (`integration-agent`), **QA Agent** (`qa-agent`), **DevOps Agent** (`devops-agent`), **Database Architect** (`database-architect`), **Tech Writer Agent** (`tech-writer-agent`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

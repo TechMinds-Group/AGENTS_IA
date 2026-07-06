@@ -3,7 +3,7 @@ name: AppSec Agent
 title: AppSec Agent
 reportsTo: security-architect
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - dast-execution
 metadata:
@@ -35,4 +35,5 @@ SeguranÃ§a de aplicaÃ§Ã£o, OWASP Top 10, DAST
 - Reporta a **Security Architect** (`security-architect`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `dast-execution`.
+
 

@@ -3,7 +3,7 @@ name: Design System Agent
 title: Design System Agent
 reportsTo: ux-design-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - design-token-formatter
 metadata:
@@ -35,4 +35,5 @@ Tokens, componentes visuais, guidelines e Storybook
 - Reporta a **UX Design Agent** (`ux-design-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `design-token-formatter`.
+
 

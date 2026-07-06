@@ -3,7 +3,7 @@ name: SDR Agent
 title: SDR Agent
 reportsTo: sales-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - brand-context-loader
   - icp-generator
@@ -38,4 +38,5 @@ ProspecÃ§Ã£o qualificada, qualificaÃ§Ã£o MQLâ†’SQL, outreach. Execu
 - Reporta a **Sales Agent** (`sales-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `brand-context-loader`, `icp-generator`, `lead-qualification`, `outreach-sequence-builder`.
+
 

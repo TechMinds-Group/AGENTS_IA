@@ -3,7 +3,7 @@ name: Compliance Security Agent
 title: Compliance Security Agent
 reportsTo: security-architect
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - security-policy-generator
 metadata:
@@ -35,4 +35,5 @@ SOC2, ISO27001, polÃ­tica de seguranÃ§a
 - Reporta a **Security Architect** (`security-architect`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `security-policy-generator`.
+
 

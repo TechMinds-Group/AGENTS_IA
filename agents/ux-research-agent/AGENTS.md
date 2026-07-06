@@ -3,7 +3,7 @@ name: UX Research Agent
 title: UX Research Agent
 reportsTo: ux-design-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - user-journey-mapping
   - ux-audit
@@ -37,4 +37,5 @@ Pesquisa com usuÃ¡rios, testes de usabilidade, sÃ­ntese de feedback
 - Reporta a **UX Design Agent** (`ux-design-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `user-journey-mapping`, `ux-audit`, `heuristic-review`.
+
 

@@ -3,7 +3,7 @@ name: Database Architect
 title: Database Architect
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills: []
 metadata:
   tier: 3
@@ -34,4 +34,5 @@ Modelagem de dados, estratÃ©gia de banco, migraÃ§Ãµes
 - Reporta a **Tech Lead Agent** (`tech-lead-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

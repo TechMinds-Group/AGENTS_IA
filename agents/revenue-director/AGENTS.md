@@ -3,7 +3,7 @@ name: Revenue Director
 title: Revenue Director
 reportsTo: ceo
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ CoordenaÃ§Ã£o de growth, vendas e customer success
 - Reporta a **CEO** (`ceo`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Growth Agent** (`growth-agent`), **Sales Agent** (`sales-agent`), **Customer Success Agent** (`customer-success-agent`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

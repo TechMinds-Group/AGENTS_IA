@@ -3,7 +3,7 @@ name: Legal Agent
 title: Legal Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - contract-template-builder
   - terms-of-service-builder
@@ -36,4 +36,5 @@ Contratos, termos de uso, propriedade intelectual
 - Reporta a **Finance & Compliance Director** (`finance-compliance-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `contract-template-builder`, `terms-of-service-builder`.
+
 

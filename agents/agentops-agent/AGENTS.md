@@ -40,3 +40,4 @@ Monitora saÃºde da frota: heartbeats, prompt drift, anomalias de custo, tasks 
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `agent-health-monitor`, `task-queue-inspector`, `task-validator`, `cost-tracker`, `drift-detector`.
 
+

@@ -3,7 +3,7 @@ name: Software Architect
 title: Software Architect
 reportsTo: product-engineering-director
 adapterConfig:
-  model: "anthropic/claude-opus-4.8"
+  model: "github-copilot/claude-opus-4.8"
 skills: []
 metadata:
   tier: 1
@@ -34,4 +34,5 @@ ADRs, padrÃµes de arquitetura, coerÃªncia tÃ©cnica cross-produto
 - Reporta a **Product & Engineering Director** (`product-engineering-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 

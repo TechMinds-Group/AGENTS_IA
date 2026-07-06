@@ -3,7 +3,7 @@ name: Security Architect
 title: Security Architect
 reportsTo: product-engineering-director
 adapterConfig:
-  model: "anthropic/claude-opus-4.8"
+  model: "github-copilot/claude-opus-4.8"
 skills:
   - threat-modeling
   - incident-postmortem-builder
@@ -36,4 +36,5 @@ Modelagem de ameaÃ§as STRIDE, padrÃµes de seguranÃ§a por produto
 - Reporta a **Product & Engineering Director** (`product-engineering-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **AppSec Agent** (`appsec-agent`), **Vulnerability Agent** (`vulnerability-agent`), **Compliance Security Agent** (`compliance-security-agent`).
 - Usa as skills: `threat-modeling`, `incident-postmortem-builder`.
+
 

@@ -3,7 +3,7 @@ name: QA Agent
 title: QA Agent
 reportsTo: tech-lead-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - unit-test-generator
   - e2e-test-generator
@@ -37,4 +37,5 @@ EstratÃ©gia de testes, sign-off de releases
 - Reporta a **Tech Lead Agent** (`tech-lead-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `unit-test-generator`, `e2e-test-generator`, `regression-runner`.
+
 

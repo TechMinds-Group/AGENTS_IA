@@ -3,7 +3,7 @@ name: Knowledge Manager
 title: Knowledge Manager
 reportsTo: ceo
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills:
   - adr-reader
   - rfc-tracker
@@ -38,4 +38,5 @@ Indexa ADRs, RFCs, post-mortems e decisÃµes histÃ³ricas. MantÃ©m `/papercl
 - Reporta a **CEO** (`ceo`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `adr-reader`, `rfc-tracker`, `postmortem-consolidator`, `decision-audit`.
+
 

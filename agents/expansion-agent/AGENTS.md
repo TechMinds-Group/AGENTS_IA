@@ -3,7 +3,7 @@ name: Expansion Agent
 title: Expansion Agent
 reportsTo: customer-success-agent
 adapterConfig:
-  model: "google/gemini-3.5-flash"
+  model: "github-copilot/gemini-3.5-flash"
 skills:
   - expansion-opportunity-finder
 metadata:
@@ -35,4 +35,5 @@ Upsell, cross-sell e expansÃ£o de receita na base
 - Reporta a **Customer Success Agent** (`customer-success-agent`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - NÃ£o possui reports diretos â€” executa o trabalho por conta prÃ³pria e devolve o resultado para quem atribuiu a task.
 - Usa as skills: `expansion-opportunity-finder`.
+
 

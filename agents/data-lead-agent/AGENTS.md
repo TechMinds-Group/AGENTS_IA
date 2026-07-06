@@ -3,7 +3,7 @@ name: Data Lead Agent
 title: Data Lead Agent
 reportsTo: finance-compliance-director
 adapterConfig:
-  model: "anthropic/claude-sonnet-4.6"
+  model: "github-copilot/claude-sonnet-4.6"
 skills: []
 metadata:
   tier: 2
@@ -34,4 +34,5 @@ CoordenaÃ§Ã£o de engenharia de dados, BI e ciÃªncia de dados
 - Reporta a **Finance & Compliance Director** (`finance-compliance-director`) â€” escala bloqueios e decisÃµes fora do seu escopo para lÃ¡.
 - Delega para: **Data Engineer Agent** (`data-engineer-agent`), **BI Agent** (`bi-agent`), **Data Science Agent** (`data-science-agent`).
 - NÃ£o possui skill dedicada no catÃ¡logo `SKILLS_AI` â€” opera por julgamento direto e delegaÃ§Ã£o.
+
 
