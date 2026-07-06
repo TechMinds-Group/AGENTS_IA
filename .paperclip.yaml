@@ -1,0 +1,239 @@
+schema: paperclip/v1
+agents:
+  ceo:
+    adapter:
+      type: opencode_local
+  chief-of-staff:
+    adapter:
+      type: opencode_local
+  knowledge-manager:
+    adapter:
+      type: opencode_local
+  coo:
+    adapter:
+      type: opencode_local
+  agentops-agent:
+    adapter:
+      type: opencode_local
+  process-agent:
+    adapter:
+      type: opencode_local
+  product-engineering-director:
+    adapter:
+      type: opencode_local
+  product-manager-agent:
+    adapter:
+      type: opencode_local
+  roadmap-agent:
+    adapter:
+      type: opencode_local
+  competitor-intel-agent:
+    adapter:
+      type: opencode_local
+  pricing-agent:
+    adapter:
+      type: opencode_local
+  localization-agent:
+    adapter:
+      type: opencode_local
+  ux-design-agent:
+    adapter:
+      type: opencode_local
+  ux-research-agent:
+    adapter:
+      type: opencode_local
+  design-system-agent:
+    adapter:
+      type: opencode_local
+  creative-design-agent:
+    adapter:
+      type: opencode_local
+  software-architect:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  tech-lead-agent:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  frontend-senior-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  frontend-mid-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  frontend-junior-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  backend-senior-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  backend-mid-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  backend-junior-dev:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  integration-agent:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  qa-agent:
+    adapter:
+      type: opencode_local
+  devops-agent:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  database-architect:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  tech-writer-agent:
+    adapter:
+      type: opencode_local
+  security-architect:
+    adapter:
+      type: opencode_local
+  appsec-agent:
+    adapter:
+      type: opencode_local
+  vulnerability-agent:
+    adapter:
+      type: opencode_local
+  compliance-security-agent:
+    adapter:
+      type: opencode_local
+  revenue-director:
+    adapter:
+      type: opencode_local
+  growth-agent:
+    adapter:
+      type: opencode_local
+  seo-agent:
+    adapter:
+      type: opencode_local
+  content-agent:
+    adapter:
+      type: opencode_local
+  community-agent:
+    adapter:
+      type: opencode_local
+  demand-gen-agent:
+    adapter:
+      type: opencode_local
+  sales-agent:
+    adapter:
+      type: opencode_local
+  sdr-agent:
+    adapter:
+      type: opencode_local
+  revops-agent:
+    adapter:
+      type: opencode_local
+  partnership-agent:
+    adapter:
+      type: opencode_local
+  customer-success-agent:
+    adapter:
+      type: opencode_local
+  support-agent:
+    adapter:
+      type: opencode_local
+  l2-agent:
+    adapter:
+      type: opencode_local
+  churn-prevention-agent:
+    adapter:
+      type: opencode_local
+  expansion-agent:
+    adapter:
+      type: opencode_local
+  finance-compliance-director:
+    adapter:
+      type: opencode_local
+  finance-agent:
+    adapter:
+      type: opencode_local
+  metrics-agent:
+    adapter:
+      type: opencode_local
+  forecast-agent:
+    adapter:
+      type: opencode_local
+  legal-agent:
+    adapter:
+      type: opencode_local
+  governance-compliance-agent:
+    adapter:
+      type: opencode_local
+  data-governance-agent:
+    adapter:
+      type: opencode_local
+  data-lead-agent:
+    adapter:
+      type: opencode_local
+  data-engineer-agent:
+    adapter:
+      type: opencode_local
+    inputs:
+      env:
+        GH_TOKEN:
+          kind: secret
+          requirement: optional
+  bi-agent:
+    adapter:
+      type: opencode_local
+  data-science-agent:
+    adapter:
+      type: opencode_local
