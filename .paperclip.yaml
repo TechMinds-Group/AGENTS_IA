@@ -7,7 +7,7 @@ agents:
       model: "opencode/deepseek-v4-flash-free"
   appsec-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   backend-junior-dev:
@@ -17,17 +17,17 @@ agents:
       model: "opencode/deepseek-v4-flash-free"
   backend-mid-dev:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/mimo-v2.5-pro"
   backend-senior-dev:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   bi-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/glm-5.2"
   ceo:
@@ -82,12 +82,12 @@ agents:
       model: "github-copilot/claude-sonnet-4.6"
   database-architect:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   data-engineer-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/mimo-v2.5-pro"
   data-governance-agent:
@@ -102,7 +102,7 @@ agents:
       model: "github-copilot/claude-sonnet-4.6"
   data-science-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/glm-5.2"
   demand-gen-agent:
@@ -127,7 +127,7 @@ agents:
       model: "github-copilot/gemini-3.5-flash"
   finance-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/glm-5.2"
   finance-compliance-director:
@@ -137,7 +137,7 @@ agents:
       model: "github-copilot/claude-sonnet-4.6"
   forecast-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/glm-5.2"
   frontend-junior-dev:
@@ -147,12 +147,12 @@ agents:
       model: "opencode/deepseek-v4-flash-free"
   frontend-mid-dev:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/mimo-v2.5-pro"
   frontend-senior-dev:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   governance-compliance-agent:
@@ -167,7 +167,7 @@ agents:
       model: "openrouter/deepseek-v4-pro"
   integration-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   knowledge-manager:
@@ -192,7 +192,7 @@ agents:
       model: "opencode/deepseek-v4-flash-free"
   metrics-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/glm-5.2"
   partnership-agent:
@@ -222,7 +222,7 @@ agents:
       model: "github-copilot/claude-sonnet-4.6"
   qa-agent:
     adapter:
-      type: opencode-go
+      type: opencode_local
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
   revenue-director:
