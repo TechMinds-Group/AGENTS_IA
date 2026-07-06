@@ -3,295 +3,177 @@ agents:
   agentops-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   appsec-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   backend-junior-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   backend-mid-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   backend-senior-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   bi-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   ceo:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   chief-of-staff:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   churn-prevention-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   community-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   competitor-intel-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   compliance-security-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   content-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   coo:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   creative-design-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   customer-success-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   database-architect:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   data-engineer-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   data-governance-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   data-lead-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   data-science-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   demand-gen-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   design-system-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   devops-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   expansion-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   finance-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   finance-compliance-director:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   forecast-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   frontend-junior-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   frontend-mid-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   frontend-senior-dev:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   governance-compliance-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   growth-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   integration-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   knowledge-manager:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   l2-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   legal-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   localization-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   metrics-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   partnership-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   pricing-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   process-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   product-engineering-director:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   product-manager-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   qa-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   revenue-director:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   revops-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   roadmap-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   sales-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   sdr-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   security-architect:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   seo-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   software-architect:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   support-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   tech-lead-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   tech-writer-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   ux-design-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   ux-research-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
   vulnerability-agent:
     adapter:
       type: opencode_local
-    adapterConfig:
-      model: github-copilot/claude-sonnet-4.6
