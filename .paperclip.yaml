@@ -1,12 +1,297 @@
 schema: paperclip/v1
 agents:
-  ceo:
+  agentops-agent:
     adapter:
       type: opencode_local
     adapterConfig:
-      model: "github-copilot/claude-opus-4.8"
+      model: "opencode/deepseek-v4-flash-free"
+  appsec-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
+  backend-junior-dev:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  backend-mid-dev:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/mimo-v2.5-pro"
   backend-senior-dev:
     adapter:
       type: opencode-go
     adapterConfig:
       model: "opencode-go/kimi-k2.7-code"
+  bi-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/glm-5.2"
+  ceo:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-opus-4.8"
+  chief-of-staff:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  churn-prevention-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "openrouter/deepseek-v4-pro"
+  community-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  competitor-intel-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  compliance-security-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  content-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  coo:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  creative-design-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  customer-success-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  database-architect:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
+  data-engineer-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/mimo-v2.5-pro"
+  data-governance-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  data-lead-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  data-science-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/glm-5.2"
+  demand-gen-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  design-system-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  devops-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  expansion-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  finance-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/glm-5.2"
+  finance-compliance-director:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  forecast-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/glm-5.2"
+  frontend-junior-dev:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  frontend-mid-dev:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/mimo-v2.5-pro"
+  frontend-senior-dev:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
+  governance-compliance-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  growth-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "openrouter/deepseek-v4-pro"
+  integration-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
+  knowledge-manager:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  l2-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  legal-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  localization-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  metrics-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/glm-5.2"
+  partnership-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  pricing-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  process-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  product-engineering-director:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  product-manager-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  qa-agent:
+    adapter:
+      type: opencode-go
+    adapterConfig:
+      model: "opencode-go/kimi-k2.7-code"
+  revenue-director:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  revops-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "openrouter/deepseek-v4-pro"
+  roadmap-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  sales-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  sdr-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  security-architect:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-opus-4.8"
+  seo-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  software-architect:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-opus-4.8"
+  support-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  tech-lead-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  tech-writer-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "opencode/deepseek-v4-flash-free"
+  ux-design-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/claude-sonnet-4.6"
+  ux-research-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "github-copilot/gemini-3.5-flash"
+  vulnerability-agent:
+    adapter:
+      type: opencode_local
+    adapterConfig:
+      model: "openrouter/deepseek-v4-pro"
