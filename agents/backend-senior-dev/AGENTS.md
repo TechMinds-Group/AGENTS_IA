@@ -10,8 +10,8 @@ skills:
 metadata:
   tier: 3
   type: Specialist
-  provider_hint: OpenRouter
-  model_hint: gemini-3.5-flash
+  provider_hint: opencode_local
+  model_hint: opencode-go/kimi-k2.7-code
   heartbeat: Sob demanda
   priority_default: high
   rollout_phase: 4
